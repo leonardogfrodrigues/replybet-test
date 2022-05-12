@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "replybet-backend"
+version = "0.1.0"
+description = ""
+authors = ["victoria <victoria.finzi15@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.1.2"
+httpx = "^0.22.0"
+fastapi = "^0.77.1"
+mysql = "^0.0.3"
+SQLAlchemy = "^1.4.36"
+requests = "^2.27.1"
+uvicorn = "^0.17.6"
+gunicorn = "^20.1.0"
+python-multipart = "^0.0.5"
+pydantic = "^1.9.0"
+decouple = "^0.0.7"
+requester = "^0.6.1"
+Flask-SQLAlchemy = "^2.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
